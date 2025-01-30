@@ -35,7 +35,7 @@ com.moust.keycloak
 └── Application.java                # Point d'entrée de l'application (Main)
 ```
 
-##Description des modules
+## Description des modules
 
 - **config** → Configuration de Keycloak et de la sécurité.
 - **auth** → Gestion des sessions, login/logout et MFA.
@@ -45,6 +45,6 @@ com.moust.keycloak
 - **deployment** → Déploiement et vérification de l'état du service.
 - **Application.java** → Classe principale qui démarre l'application.
 
-##Pourquoi utiliser Spring Boot ?
+## Pourquoi utiliser Spring Boot ?
 Spring Boot est utilisé dans ce projet car il permet de simplifier le développement d'applications Java en fournissant des configurations automatiques, une gestion facile des dépendances et une intégration fluide avec Keycloak. Il offre également une architecture robuste pour gérer l'authentification et l'autorisation via OAuth2 et d'autres protocoles de sécurité. De plus, Spring Boot facilite la création d'API REST, essentielles pour exposer les fonctionnalités du projet et les rendre accessibles aux applications clientes.
 
