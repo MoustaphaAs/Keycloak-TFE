@@ -1,6 +1,10 @@
 # Keycloak-TFE
+
 🔐 Projet TFE - Intégration de Keycloak pour la gestion sécurisée des identités et l'authentification multi-facteurs (MFA).
 
+## 📂 Structure du projet
+
+```
 📦 com.moust.keycloak
 │
 ├── 📂 config
@@ -29,11 +33,14 @@
 │   ├── HealthCheckController.java # Vérification de l'état de santé de l'application
 │
 └── Application.java                # Point d'entrée de l'application (Main)
+```
 
-config → Configuration de Keycloak et de la sécurité.
-auth → Gestion des sessions, login/logout et MFA.
-user → Gestion des utilisateurs et rôles.
-integration → Intégration avec OAuth et SSH.
-security → Mesures de protection et logs.
-deployment → Déploiement et vérification de l'état du service.
-Application.java → Classe principale qui démarre l'application.
+## 📌 Description des modules
+- **config** → Configuration de Keycloak et de la sécurité.
+- **auth** → Gestion des sessions, login/logout et MFA.
+- **user** → Gestion des utilisateurs et rôles.
+- **integration** → Intégration avec OAuth et SSH.
+- **security** → Mesures de protection et logs.
+- **deployment** → Déploiement et vérification de l'état du service.
+- **Application.java** → Classe principale qui démarre l'application.
+
